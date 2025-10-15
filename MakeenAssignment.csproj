@@ -8,4 +8,8 @@
     <StartupObject>MakeenAssignment.SimpleBankSystem</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="OOP\" />
+  </ItemGroup>
+
 </Project>
