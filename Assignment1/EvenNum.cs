@@ -1,4 +1,4 @@
-﻿namespace Assignment
+﻿namespace MakeenAssignment.Assignment1
 {
     internal class EvenNum
     {

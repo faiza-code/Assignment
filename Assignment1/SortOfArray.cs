@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment
+namespace MakeenAssignment.Assignment1
 {
     internal class SortOfArray
     {
