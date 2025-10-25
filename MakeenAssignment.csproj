@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>MakeenAssignment.SimpleBankSystem</StartupObject>
+    <StartupObject>MakeenAssignment.Assignment3.E_CommerceMain</StartupObject>
   </PropertyGroup>
 
 </Project>

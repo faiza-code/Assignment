@@ -14,8 +14,6 @@ namespace MakeenAssignment.OOP
         {
 
             BankAccount acc = new BankAccount("Faiza", 12452, 67398, 985090);
-            //Console.WriteLine(acc.widthDrow(-1000));
-
             int usreValue;
             do {
                 Console.WriteLine("Wellcome to Bank Account");
