@@ -24,7 +24,7 @@ namespace MakeenAssignment.Assignment3.Models
             return Price * Quantity;
         }
 
-        // Overloaded 
+        
         public double CalculateTotal(double price, int quantity)
         {
             return price * quantity;
