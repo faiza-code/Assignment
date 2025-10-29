@@ -10,17 +10,13 @@ namespace MakeenAssignment.Assignment2
     {
         static void Main(string[] args)
         {
-            // Banking App 01
-            //Data Store (مخزن البيانات )
-            //transfer account id 1 - 1                    
-            //  0       1           2
+            
             string[] UserName = { "usif", "hossam", "Masad" };
             string[] Password = { "123", "456", "789" };
             decimal[] Balance = { 1000, 20000, 30000 };
             bool isAuthenticated = false;
             int userIndex = -1;
-            //------------------------------------------
-            //login system 
+            
             do
             {
                 Console.WriteLine("\t\t\t Welcome to Bank Muscat ");
@@ -82,7 +78,7 @@ namespace MakeenAssignment.Assignment2
                     Console.WriteLine("------------------------");
                     Console.WriteLine($"your bank account amount {Balance[userIndex]}");
                     Console.WriteLine("please enter your amount for withdraw : ");
-                    amount = int.Parse(Console.ReadLine());//only read the value as string
+                    amount = int.Parse(Console.ReadLine());
                     if (amount <= 0)
                     {
                         Console.WriteLine("invalid amount ");

@@ -25,26 +25,26 @@ namespace MakeenAssignment.Assignment2
                 Console.WriteLine("5. Clear Completed Tasks");
                 Console.WriteLine("6. Exit");
                 Console.Write("Choose an option: ");
-                string input = Console.ReadLine();
+                int userVlue = int.Parse(Console.ReadLine());
 
-                switch (input)
+                switch (userVlue)
                 {
-                    case "1":
+                    case 1:
                         AddTask();
                         break;
-                    case "2":
+                    case 2:
                         DeleteTask();
                         break;
-                    case "3":
+                    case 3:
                         MarkCompleted();
                         break;
-                    case "4":
+                    case 4:
                         ViewTasks();
                         break;
-                    case "5":
+                    case 5:
                         ClearCompletedTasks();
                         break;
-                    case "6":
+                    case 6:
                         Console.WriteLine("Exiting application...");
                         return;
                     default:
@@ -90,16 +90,15 @@ namespace MakeenAssignment.Assignment2
             Console.Write("Enter task number to delete: ");
             if (int.TryParse(Console.ReadLine(), out int index) && index >= 1 && index <= count)
             {
-                index--; // zero-based index
+                index--; 
 
-                // Shift tasks and statuses left to fill gap
                 for (int i = index; i < count - 1; i++)
                 {
                     tasks[i] = tasks[i + 1];
                     isCompleted[i] = isCompleted[i + 1];
                 }
 
-                // Clear last entry
+                
                 tasks[count - 1] = null;
                 isCompleted[count - 1] = false;
                 count--;
@@ -124,7 +123,7 @@ namespace MakeenAssignment.Assignment2
             Console.Write("Enter task number to mark as completed: ");
             if (int.TryParse(Console.ReadLine(), out int index) && index >= 1 && index <= count)
             {
-                index--; // zero-based index
+                index--; 
                 isCompleted[index] = true;
                 Console.WriteLine("Task marked as completed.");
             }
@@ -163,7 +162,7 @@ namespace MakeenAssignment.Assignment2
             {
                 if (isCompleted[i])
                 {
-                    // Shift left to delete completed task
+                    
                     for (int j = i; j < count - 1; j++)
                     {
                         tasks[j] = tasks[j + 1];

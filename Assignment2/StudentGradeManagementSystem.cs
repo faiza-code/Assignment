@@ -10,7 +10,7 @@ namespace MakeenAssignment.Assignment2
     {
          static string[] students = new string[100];
          static int[] grades = new int[100];
-         static  int count = 0; // number of students added
+         static  int count = 0; 
         static void Main(string[] args)
         {
 
@@ -23,24 +23,24 @@ namespace MakeenAssignment.Assignment2
                 Console.WriteLine("4.Show Average, Highest, and Lowest Grades");
                 Console.WriteLine("5.Exit");
                 Console.Write("Choose an option: ");
-                string option = Console.ReadLine();
+                int userVlue = int.Parse(Console.ReadLine());
 
-                switch (option)
+                switch (userVlue)
                 {
-                    case "1":
+                    case 1:
                         AddStudent();
                         break;
-                    case "2":
+                    case 2:
                         UpdateGrade();
                         break;
-                    case "3":
+                    case 3:
                         ViewStudents();
                         break;
-                    case "4":
+                    case 4:
                         ShowStatistics();
                         break;
-                    case "5":
-                        return; // exit the program
+                    case 5:
+                        return; 
                     default:
                         Console.WriteLine("Invalid option. Try again.");
                         break;

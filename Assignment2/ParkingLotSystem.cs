@@ -52,7 +52,7 @@ namespace MakeenAssignment.Assignment2
             Console.Write("Enter car license number to park: ");
             string license = Console.ReadLine();
 
-            // Prevent duplicate entries
+           
             for (int i = 0; i < slots.Length; i++)
             {
                 if (slots[i] != null && slots[i].Equals(license, StringComparison.OrdinalIgnoreCase))
@@ -62,7 +62,7 @@ namespace MakeenAssignment.Assignment2
                 }
             }
 
-            // Find empty slot
+        
             for (int i = 0; i < slots.Length; i++)
             {
                 if (slots[i] == null)
