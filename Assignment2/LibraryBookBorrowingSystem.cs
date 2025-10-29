@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MakeenAssignment.Assignment2
 {
-    internal class LibraryBookBorrowingSystem
+    public class LibraryBookBorrowingSystem
     {
         static string[] books = {
         "The Great Gatsby",

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MakeenAssignment.Assignment2
 {
-    internal class ParkingLotSystem
+    public class ParkingLotSystem
     {
         static string[] slots = new string[10];
         static void Main (string[] args)

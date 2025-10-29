@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MakeenAssignment.Assignment2
 {
-    internal class ToDoList_Application
+    public class ToDoList_Application
     {
         const int maxTasks = 100;
         static string[] tasks = new string[maxTasks];

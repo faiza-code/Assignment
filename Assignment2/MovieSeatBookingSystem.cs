@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MakeenAssignment.Assignment2
 {
-    internal class MovieSeatBookingSystem
+    public class MovieSeatBookingSystem
     {
         static void Main(string[] args)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MakeenAssignment.Assignment2
 {
-    internal class SimpleQuizApp
+    public class SimpleQuizApp
     {
         static void Main(string[] args)
         {

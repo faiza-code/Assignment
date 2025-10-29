@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MakeenAssignment.Assignment2
 {
-    internal class SimpleBankSystem
+    public class SimpleBankSystem
     {
         static void Main(string[] args)
         {

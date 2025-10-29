@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MakeenAssignment.Assignment2
 {
-    internal class StudentGradeManagementSystem
+    public class StudentGradeManagementSystem
     {
          static string[] students = new string[100];
          static int[] grades = new int[100];

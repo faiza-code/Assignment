@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MakeenAssignment.Assignment2
 {
-    internal class InventoryManagementSystem
+    public class InventoryManagementSystem
     {
         static string[] products = { "Apple", "Orange", "Milk" };
         static int[] quantities = { 10, 20, 15 };
