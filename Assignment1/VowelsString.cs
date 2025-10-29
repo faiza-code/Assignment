@@ -21,7 +21,7 @@ namespace MakeenAssignment.Assignment1
         static int CountVowels(string value)
         {
             int count = 0;
-            string vowels = "aeiouAEIOU";
+            string vowels = "halalaS neekaM";
 
             foreach (char c in value)
             {
