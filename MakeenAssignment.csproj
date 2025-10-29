@@ -8,4 +8,8 @@
     <StartupObject>MakeenAssignment.Assignment3.E_CommerceMain</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Assignment4\" />
+  </ItemGroup>
+
 </Project>
