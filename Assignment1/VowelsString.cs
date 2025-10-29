@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MakeenAssignment.Assignment1
 {
-    internal class VowelsString
+    public class VowelsString
     {
+
     }
 }

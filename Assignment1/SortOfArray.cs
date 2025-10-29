@@ -23,7 +23,7 @@ namespace MakeenAssignment.Assignment1
             
             Array.Sort(numbers);
 
-            Console.WriteLine("Sorted array (ascending):");
+            Console.WriteLine("Sorted array:");
             foreach (int num in numbers)
             {
                 Console.Write(num + " ");
