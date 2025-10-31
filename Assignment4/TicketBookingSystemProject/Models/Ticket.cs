@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MakeenAssignment.Assignment4.TicketBookingSystemProject.Enum;
+using MakeenAssignment.Assignment4.TicketBookingSystemProject.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +12,15 @@ namespace MakeenAssignment.Assignment4.TicketBookingSystemProject.Models
     {
         public string EventName { get; set; }
         public int SeatNumber { get; set; }
-        public  { get; set; }
+        public TicketType TicketType { get; set; }
+
+        public Ticket(string eventName, int seatNumber, TicketType type)
+        {
+            this.EventName = eventName;
+            this.SeatNumber = seatNumber;
+            this.TicketType = type;
+        }
+
 
     }
 }

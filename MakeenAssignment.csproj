@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>MakeenAssignment.Assignment3.E_CommerceMain</StartupObject>
+    <StartupObject>MakeenAssignment.Assignment4.TicketBookingSystemProject.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
