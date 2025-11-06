@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MakeenAssignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a6c76b452b263c6566ac5bcf25441babf86eb60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6f2d3a4259ebbea415e95e6638d4d69cee1b3ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("MakeenAssignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MakeenAssignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
